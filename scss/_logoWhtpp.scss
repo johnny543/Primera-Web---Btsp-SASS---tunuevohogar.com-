@@ -1,0 +1,23 @@
+.contactWhatsapp {
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    bottom: 25px;
+    right: 25px;
+    background: #25d366;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    z-index: index 1;
+    transition: all 500ms ease;
+
+    &:hover {
+        background: #157e3d;
+        z-index: index 0;
+    }
+
+    i {
+        color: rgb(255, 255, 255);
+        font-size: 45px;
+    }
+}

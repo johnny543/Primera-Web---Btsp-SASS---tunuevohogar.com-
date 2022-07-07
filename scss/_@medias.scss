@@ -1,0 +1,47 @@
+/*Inicio Cards INDEX*/
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .container-card {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 15px;
+    }
+}
+
+.offalquileres {
+    color: #e39403;
+}
+
+/*Fin-Cards INDEX*/
+
+/* Inicio InversionesAdds INDEX*/
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .inversionAdds {
+        display: block;
+        flex-wrap: wrap;
+        padding: 50px;
+        align-content: center;
+    }
+
+    .infoInversion {
+        padding: 30px;
+        justify-content: center;
+    }
+}
+/* Fin InversionesAdds INDEX*/
+
+/* Inicio Formulario Contacto*/
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .containerForm {
+        display: block;
+        flex-wrap: wrap;
+        padding-top: 100px;
+        margin: 15px;
+    }
+
+    .inputForm {
+        margin: 25px;
+    }
+}
+/* Fin Formulario Contacto*/
