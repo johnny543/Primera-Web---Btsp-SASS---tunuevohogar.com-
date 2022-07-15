@@ -1,20 +1,3 @@
-/*Inicio Cards INDEX*/
-@media only screen and (min-width:320px) and (max-width:768px) {
-    .container-card {
-        flex-wrap: wrap;
-    }
-
-    .card {
-        margin: 15px;
-    }
-}
-
-.offalquileres {
-    color: #e39403;
-}
-
-/*Fin-Cards INDEX*/
-
 /* Inicio InversionesAdds INDEX*/
 @media only screen and (min-width:320px) and (max-width:768px) {
     .inversionAdds {
@@ -29,6 +12,7 @@
         justify-content: center;
     }
 }
+
 /* Fin InversionesAdds INDEX*/
 
 /* Inicio Formulario Contacto*/
@@ -44,4 +28,5 @@
         margin: 25px;
     }
 }
+
 /* Fin Formulario Contacto*/
