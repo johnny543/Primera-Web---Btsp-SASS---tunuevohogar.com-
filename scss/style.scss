@@ -5,7 +5,14 @@
 @import "footer";
 @import "bgBody";
 
-
+@colors:(
+    global-primary::#ff6900;
+    global-secundary:#54595f
+    global-color-text: #7A7A7A
+)
+.caption-center{
+    top:40%;
+}
 .inversionAdds {
     display: flex;
     width: 100%;

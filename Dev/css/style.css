@@ -133,6 +133,9 @@ body {
   background-color: rgba(0, 0, 0, 0.253);
 }
 
+@colores (
+    primario::#ff5107
+)
 .inversionAdds {
   display: flex;
   width: 100%;

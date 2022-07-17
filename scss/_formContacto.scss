@@ -1,8 +1,9 @@
 .containerForm {
-    width: 100%;
-    max-width: 1100px;
-    margin: auto;
+
     display: grid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
     margin-top: 90px;
@@ -29,7 +30,7 @@
         font-weight: 700;
 
         i {
-            color: orange;
+            color: map-get($map: colors, $key: global-primary);
             margin-right: 10px;
         }
     }
@@ -57,14 +58,15 @@
         font-size: 16px;
         border: none;
         outline: 0px;
-        background: orange;
+        background: fff
+;
         color: white;
         border-radius: 3px;
         cursor: pointer;
         transition: all 300ms ease;
 
         &:hover {
-            background: #e39403;
+            background: #979693;
         }
     }
 }
