@@ -5,23 +5,23 @@
 @import "footer";
 @import "bgBody";
 
-@colors:(
-    global-primary::#ff6900;
-    global-secundary:#54595f
-    global-color-text: #7A7A7A
-)
 
 /* SCSS HEX */
-$international-orange-aerospace: #ff5107ff;
-$black: #000000ff;
-$onyx: #373a3cff;
-$davys-grey: #54595fff;
-$sonic-silver: #7a7a7aff;
-$white: #ffffffff;
+$primario-orange: #ff5107ff;
+$secundario-black: #000000ff;
+$terciario-onyx: #373a3cff;
+$cuarto-davys-grey: #54595fff;
+$quinto-sonic-silver: #7a7a7aff;
+$secto-white: #ffffffff;
 
-.caption-center{
-    top:40%;
+$primary: $secundario-black;
+$primary: $primario-orange;
+
+
+.caption-center {
+    top: 40%;
 }
+
 .inversionAdds {
     display: flex;
     width: 100%;
@@ -29,6 +29,5 @@ $white: #ffffffff;
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 20px;
-    color: #d38c09;
     justify-content: space-around;
 }
