@@ -1,0 +1,198 @@
+/* Sections nuestrosRepresentantes - Inicio*/
+.nuestrosRepresentantes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #E3E3D8;
+  }
+  
+  .cardCorredores {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 40px;
+  
+    .content {
+      position: relative;
+      z-index: 100;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      text-align: center;
+      padding: 20px;
+      background: #fff;
+  
+      .img {
+        height: 50%;
+        margin-bottom: 20px;
+  
+        img {
+          position: relative;
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          object-fit: cover;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+        }
+      }
+  
+      span {
+        position: absolute;
+        width: 350px;
+        height: 200px;
+        background: linear-gradient(to right, #5e2066, #b332c7);
+        transform: rotate(-35deg);
+        top: -50px;
+        left: -100px;
+      }
+  
+      h4 {
+        font-size: 18px;
+        color: #1a1919;
+        margin-bottom: 5px;
+      }
+  
+      h6 {
+        font-size: 13px;
+        color: #5e2066;
+      }
+  
+      p {
+        font-size: 13px;
+        color: #1a161f;
+        margin-top: 10px;
+      }
+    }
+  
+    .links {
+      position: absolute;
+      z-index: 90;
+      width: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      background: rgba(255, 255, 255, 0.5);
+      box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+      padding: 20px;
+      align-items: center;
+      right: 10px;
+      top: 15px;
+      transition: .5s;
+    }
+  
+    &:hover .links {
+      right: -50px;
+      border-radius: 0 10px 10px 0;
+    }
+  
+    .links a {
+      font-size: 20px;
+      color: #646069;
+  
+      &:nth-child(1):hover {
+        color: #0158ca;
+      }
+  
+      &:nth-child(2):hover {
+        color: #1C93E4;
+      }
+  
+      &:nth-child(3):hover {
+        color: #5D277D;
+      }
+  
+      &:nth-child(4):hover {
+        color: #FE0000;
+      }
+    }
+  }
+
+  /* Sections nuestrosRepresentantes - Fin*/
+
+
+  /* Sections inversionAdds - Inicio*/
+  .inversionAddsData{
+    color: $primario-orange;
+    .infoInversion{
+      color: $primario-orange;
+    }
+  }
+  /* Sections inversionAdds - Fin*/
+
+
+/* Sections inverGrupo -Video fondo- Inicio*/
+
+.invierGrupo {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+}
+
+.absolute {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloInversionVideo {
+  z-index: 100;
+  color: $secto-white;
+
+
+  &::after {
+    display: block;
+    width: 100%;
+    height: 10px;
+    content: "";
+    margin: auto;
+    background: $primario-orange;
+  }
+}
+
+.subtituloInversionVideo {
+z-index: 100;
+color: $secto-white;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.575);
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+
+    &::after {
+      display: none;
+    }
+  }
+}
+
+/* Sections inverGrupo - Fin */ 

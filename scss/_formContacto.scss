@@ -30,7 +30,7 @@
         font-weight: 700;
 
         i {
-            color: map-get($map: colors, $key: global-primary);
+            color:chartreuse;
             margin-right: 10px;
         }
     }
@@ -58,7 +58,7 @@
         font-size: 16px;
         border: none;
         outline: 0px;
-        ;
+        background-color:$primario-orange;
         color: white;
         border-radius: 3px;
         cursor: pointer;

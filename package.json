@@ -243,5 +243,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnny543/Primera-Web---Btsp-SASS---tunuevohogar.com-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnny543/Primera-Web---Btsp-SASS---tunuevohogar.com-/issues"
+  },
+  "homepage": "https://github.com/johnny543/Primera-Web---Btsp-SASS---tunuevohogar.com-#readme"
 }

@@ -199,7 +199,7 @@
 		<!-- Fin Filtro -->
 
 		<!-- Cards inicio-->
-		<div data-aos="fade-right" class=" mb-4">
+		<div data-aos="fade-right" class="cardsIndex mb-4">
 			<p class="fs-2 m-2 fw-semibold"> Destacados en Alquiler</p>
 			<div class="card-group ps-5 pe-5 ">
 
@@ -341,7 +341,7 @@
 		<!-- Cards Fin-->
 
 	</main>
-	<section class=" shadow p-3 mb-4 bg-body rounded">
+	<section class="inversionAdds shadow p-3 mb-4 bg-body rounded">
 		<div class="row justify-content-center d-flex">
 			<div class="col-12 col-md-4 ">
 				<video class="ratio ratio-4x3" src="./assets/media/Institucional tu nuevo hogar.mp4" controls autoplay
@@ -366,38 +366,41 @@
 	</section>
 
 
-	<section class="inversionAdds text-center p-2 fw-bold" data-aos="fade-left">
-		<div>
-			<h2 class="infoInversion">600 +</h2>
-			<p>Propiedades disponibles</p>
+	<section class="inversionAddsData text-center p-2 fw-bold" data-aos="fade-left">
+		<div class=" d-flex flex-wrap flex-row p-2 w-100 justify-content-evenly ">
+			<div>
+				<h2 class="infoInversion">600 +</h2>
+				<p>Propiedades disponibles</p>
+			</div>
+			<div>
+				<h2 class="infoInversion">200 +</h2>
+				<p>Propietarios satisfechos</p>
+			</div>
+			<div>
+				<h2 class="infoInversion">800 +</h2>
+				<p>Propiedades administradas</p>
+			</div>
+			<div>
+				<h2 class="infoInversion">$300 millones</h2>
+				<p>Carteras Negocios realizados</p>
+			</div>
+
 		</div>
-		<div>
-			<h2 class="infoInversion">200 +</h2>
-			<p>Propietarios satisfechos</p>
-		</div>
-		<div>
-			<h2 class="infoInversion">800 +</h2>
-			<p>Propiedades administradas</p>
-		</div>
-		<div>
-			<h2 class="infoInversion">$300 millones</h2>
-			<p>Carteras Negocios realizados</p>
-		</div>
+
 	</section>
 
-	<section class="invierteGrupo  col-12">
-		<div class="videoSection ">
-			<video src="./assets/media/Residence, Exclusive Interior cutter.mp4" autoplay muted loop
-				class="videoBackground"></video>
-			<div class="contentVideoInd d-flex flex-wrap flex-column">
-				<h1 class="textoVideo fs-3 row pb-2 border-bottom">En Tu Nuevo Hogar - Inmobiliaria.</h1>
-				<div>
-					<span class=" fs-1 fw-bold rounded-pill">__________________</span>
-				</div>
-				<h2 class="textoVideo fs-5 row">Nuestro objetivo es llevar a nuestros clientes en un viaje de propiedad
-					exitoso y sin complicaciones.</h2>
-			</div>
+	<section class="invierGrupo col-12">
+
+		<div class="overlay"></div>
+		<div class="absolute d-flex flex-column">
+			<h1 class="tituloInversionVideo fs-3 row  ">En Tu Nuevo Hogar - Inmobiliaria.</h1>
+			<h2 class="subtituloInversionVideo fs-5 row">Nuestro objetivo es llevar a nuestros clientes en un viaje de propiedad
+				exitoso y sin complicaciones.</h2>
 		</div>
+		<video onloadedmetadata="this.muted=true" autoplay loop>
+			<source src="./assets/media/Residence, Exclusive Interior cutter.mp4">
+		</video>
+
 	</section>
 
 	<!-- Cards Nuestros Representantes-->
