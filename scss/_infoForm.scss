@@ -1,7 +1,5 @@
-.infoForm{
-    button{
-        color: rgb(17, 15, 13);
-        background-color: firebrick;
-    }
-
+.infoForm {
+    position: relative;
+    z-index: 1;
+    top: -50px;
 }

@@ -1,58 +1,28 @@
-.containerForm {
-
-    display: grid;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px;
-    margin-top: 90px;
-    margin-left: 50px;
-
-    h2 {
-        margin-bottom: 15px;
-        font-size: 35px
+.contactForm{
+    background: url(../assets/img/Contact-trujillo-1824392.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: #ffffff;
+    
+    .infoFormu{
+    background:#2423226c;
+    border-radius: 20px;
+    .a{
+        color: #a52c2c;
     }
-
-    p {
-        font-size: 17px;
-        line-height: 1.6;
-        margin-bottom: 30px;
+    .fa{
+        color: $primario-orange;
     }
-
-    a {
-        font-size: 17px;
-        display: inline-block;
-        text-decoration: none;
-        width: 100%;
-        margin-bottom: 15px;
-        color: black;
-        font-weight: 700;
-
-        i {
-            color:chartreuse;
-            margin-right: 10px;
+    }
+    .inputForm {
+        background-color: #2423226c;
+        border-radius: 45px;
+        .campoMens{
+            height: 100px;
         }
     }
-
-    form .campo,
-    textarea {
-        width: 100%;
-        padding: 15px 10px;
-        font-size: 16px;
-        border: 1px solid #dbdbdb;
-        margin-bottom: 20px;
-        border-radius: 3px;
-        outline: 0px;
-    }
-
-    form textarea {
-        max-width: 530px;
-        min-width: 530px;
-        min-height: 140px;
-        max-height: 150px;
-    }
-
+}
     .btnEnviar {
         padding: 15px;
         font-size: 16px;
@@ -68,4 +38,3 @@
             background: #979693;
         }
     }
-}

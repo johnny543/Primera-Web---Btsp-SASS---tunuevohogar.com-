@@ -1,0 +1,70 @@
+.navbarImg {
+    position: absolute;
+    background: #d4d1cb13;
+    border-radius: 10px;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
+        15px 15px 15px rgba(0, 0, 0, 0.1),
+        inset -5px -5px 5px rgba(255, 255, 255, 0.2),
+        inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+    width: 80px;
+    left: 20px;
+    top: 10%;
+}
+
+.navbar {
+	font-family: 'Titillium Web';
+	text-transform: uppercase;
+	text-align: center;
+    font-weight: 600;
+	
+	* {
+		box-sizing: border-box;
+		transition: all .35s ease;
+	}
+	li {
+		display: inline-block;
+		list-style: outside none none;
+		margin: .1em .1em;
+		padding: 0;
+	}
+	a {
+		padding: .5em .8em;
+		color: rgba(255,255,255,.5);
+		position: relative;
+		
+		font-size: 50px;
+		&::before {
+			content: '';
+			right: 0;
+			top: 0;
+			border-top: 3px solid #f19926;
+			border-right: 3px solid #ee701c;
+			transform: translate(-100%, 50%);
+		}
+		&:after {
+			content: '';
+			left: 0;
+			bottom: 0;
+			border-bottom: 3px solid #1a1b19;
+			border-left: 3px solid #e25413;
+			transform: translate(100%, -50%);
+		}
+		&:hover {
+			color: #3DA35D;
+		}
+	}
+}
+.navbar a::before,
+.navbar a::after {
+	content: '';
+	height: 18px;
+	width: 18px;
+	position: absolute;
+	transition: all .35s ease;
+	opacity: 0;
+}
+.navbar a:hover:before,
+.navbar a:hover:after {
+	transform: translate(0,0);
+	opacity: 1;
+}

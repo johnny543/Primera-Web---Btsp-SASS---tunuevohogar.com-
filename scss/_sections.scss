@@ -3,8 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background: #E3E3D8;
+    background:url(../assets/img/iphoto-11612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .cardCorredores {
@@ -13,7 +14,7 @@
     height: 350px;
     border-radius: 10px;
     box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
-    margin: 40px;
+    margin: 30px;
   
     .content {
       position: relative;
@@ -26,7 +27,7 @@
       overflow: hidden;
       text-align: center;
       padding: 20px;
-      background: #fff;
+      background: rgb(250, 246, 246);
   
       .img {
         height: 50%;
@@ -46,7 +47,7 @@
         position: absolute;
         width: 350px;
         height: 200px;
-        background: linear-gradient(to right, #5e2066, #b332c7);
+        background: linear-gradient(to right, $primario-orange, #f07a05);
         transform: rotate(-35deg);
         top: -50px;
         left: -100px;
@@ -60,7 +61,7 @@
   
       h6 {
         font-size: 13px;
-        color: #5e2066;
+        color: #c71e18;
       }
   
       p {
@@ -196,3 +197,18 @@ color: $secto-white;
 }
 
 /* Sections inverGrupo - Fin */ 
+
+
+/*Section consejoDeExperto - Inicio */
+
+.consejoDeExperto { 
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+background: #fff fixed no-repeat 50% 50%;
+background-size: cover;
+}
+#consejoExperto {
+  background-image: url(../assets/img/001\ alquilers\ firm.jpg);
+}

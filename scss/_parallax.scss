@@ -1,0 +1,75 @@
+/* Parallax en Comprar - Inicio */
+.parallaxCompleto {
+    width: 100%;
+    height: 75vh;
+    background-image: url('../assets/img/C\ 001-157811.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .textoHero {
+        background: rgba(224, 220, 220, 0.123);
+        padding: 10px;
+        border-radius: 10px;
+        width: 150vh;
+        text-align: center;
+        color: #fff;
+
+        .span {
+            color: $primario-orange;
+        }
+    }
+}
+
+
+/* Parallax en Alquilar - Inicio */
+.parallaxCompletoAlquilar {
+    width: 100%;
+    height: 75vh;
+    background-image: url('../assets/img/Untitledalquileres600.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .textoHeroAlquilar {
+        background: rgba(224, 220, 220, 0.123);
+        padding: 10px;
+        border-radius: 10px;
+        width: 150vh;
+        text-align: center;
+        color: #fff;
+
+        .span {
+            color: $primario-orange;
+        }
+    }
+}
+
+
+/* Parallax en Index - Inicio */
+.parallax-chico {
+    height: 300px;
+    background-image: url(../assets/img/gold-coast-city-g966147592_1280.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+
+    h2 {
+        display: flex;
+        height: inherit;
+        background-color: rgba(32, 32, 30, 0.301);
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 200;
+    }
+}
