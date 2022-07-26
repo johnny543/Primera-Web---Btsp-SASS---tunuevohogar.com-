@@ -384,16 +384,6 @@ video {
   top: -50px;
 }
 
-.navbarImg {
-  position: absolute;
-  background: rgba(212, 209, 203, 0.0745098039);
-  border-radius: 10px;
-  box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(0, 0, 0, 0.1);
-  width: 80px;
-  left: 20px;
-  top: 10%;
-}
-
 .navbar {
   font-family: "Titillium Web";
   text-transform: uppercase;
@@ -404,6 +394,12 @@ video {
   box-sizing: border-box;
   transition: all 0.35s ease;
 }
+.navbar .navbarImg {
+  width: 40px;
+  background: rgba(212, 209, 203, 0.0745098039);
+  border-radius: 0px;
+  box-shadow: -15px -15px 15px rgba(48, 44, 44, 0.747), 15px 15px 15px rgba(223, 96, 22, 0.363), inset -5px -5px 5px rgba(255, 255, 255, 0.2), inset 5px 5px 5px rgba(202, 186, 186, 0.171);
+}
 .navbar li {
   display: inline-block;
   list-style: outside none none;
@@ -412,9 +408,8 @@ video {
 }
 .navbar a {
   padding: 0.5em 0.8em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(223, 221, 221, 0.973);
   position: relative;
-  font-size: 50px;
 }
 .navbar a::before {
   content: "";
@@ -429,11 +424,11 @@ video {
   left: 0;
   bottom: 0;
   border-bottom: 3px solid #1a1b19;
-  border-left: 3px solid #e25413;
+  border-left: 3px solid #fd6906;
   transform: translate(100%, -50%);
 }
 .navbar a:hover {
-  color: #3DA35D;
+  color: #ff781e;
 }
 
 .navbar a::before,

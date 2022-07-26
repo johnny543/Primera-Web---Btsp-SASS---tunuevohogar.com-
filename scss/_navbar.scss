@@ -1,25 +1,26 @@
-.navbarImg {
-    position: absolute;
-    background: #d4d1cb13;
-    border-radius: 10px;
-    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
-        15px 15px 15px rgba(0, 0, 0, 0.1),
-        inset -5px -5px 5px rgba(255, 255, 255, 0.2),
-        inset 5px 5px 5px rgba(0, 0, 0, 0.1);
-    width: 80px;
-    left: 20px;
-    top: 10%;
-}
 
 .navbar {
 	font-family: 'Titillium Web';
 	text-transform: uppercase;
 	text-align: center;
-    font-weight: 600;
+	font-weight: 600;
 	
+	
+
 	* {
 		box-sizing: border-box;
 		transition: all .35s ease;
+	}
+	.navbarImg{
+
+	width: 40px;
+		background: #d4d1cb13;
+		border-radius: 0px;
+		box-shadow: -15px -15px 15px rgba(48, 44, 44, 0.747),
+			15px 15px 15px rgba(223, 96, 22, 0.363),
+			inset -5px -5px 5px rgba(255, 255, 255, 0.2),
+			inset 5px 5px 5px rgba(202, 186, 186, 0.171);
+		
 	}
 	li {
 		display: inline-block;
@@ -27,12 +28,15 @@
 		margin: .1em .1em;
 		padding: 0;
 	}
+
 	a {
 		padding: .5em .8em;
-		color: rgba(255,255,255,.5);
+		color: rgba(223, 221, 221, 0.973);
 		position: relative;
-		
-		font-size: 50px;
+	
+
+
+
 		&::before {
 			content: '';
 			right: 0;
@@ -41,19 +45,21 @@
 			border-right: 3px solid #ee701c;
 			transform: translate(-100%, 50%);
 		}
+
 		&:after {
 			content: '';
 			left: 0;
 			bottom: 0;
 			border-bottom: 3px solid #1a1b19;
-			border-left: 3px solid #e25413;
+			border-left: 3px solid #fd6906;
 			transform: translate(100%, -50%);
 		}
 		&:hover {
-			color: #3DA35D;
+			color: #ff781e;
 		}
 	}
 }
+
 .navbar a::before,
 .navbar a::after {
 	content: '';
@@ -63,8 +69,10 @@
 	transition: all .35s ease;
 	opacity: 0;
 }
+
 .navbar a:hover:before,
 .navbar a:hover:after {
-	transform: translate(0,0);
+	transform: translate(0, 0);
 	opacity: 1;
 }
+
