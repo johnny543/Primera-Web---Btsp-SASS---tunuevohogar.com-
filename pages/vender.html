@@ -25,135 +25,156 @@
 </head>
 
 <body class="contenedor">
-	<div id="containerBodyP">
 
-		<nav class="navbar navbar-expand-lg bg-mycolor sticky-top">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="../index.html">
-					<img src="../assets/icons/Logo  Minimalista Naranja Negro sha.png" class="navbarImg" alt="logo inmibiliaria"></a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse justify-content-evenly" id="navbarNav">
-					<ul class="navbar-nav text-center">
-						<li class="nav-item">
-							<a class="nav-link active text-white fs-4 " aria-current="page"
-								href="../index.html">Inicio</a>
-						</li>
-						<li class="nav-item ">
-							<a class="nav-link text-white fs-4" href="./comprar.html">Comprar</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white fs-4" href="./alquilar.html">Alquilar</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white fs-4" href="./vender.html">Vender</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white fs-4" href="./vistademapa.html">Vista de Mapa</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white fs-4" href="./contacto.html">Contacto</a>
-						</li>
-					</ul>
+
+	<nav class="navbar navbar-expand-lg bg-mycolor sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="../index.html">
+				<img src="../assets/icons/Logo  Minimalista Naranja Negro sha.png" class="navbarImg"
+					alt="logo inmibiliaria"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-evenly" id="navbarNav">
+				<ul class="navbar-nav text-center">
+					<li class="nav-item">
+						<a class="nav-link active text-white fs-4 " aria-current="page" href="../index.html">Inicio</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link text-white fs-4" href="./comprar.html">Comprar</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white fs-4" href="./alquilar.html">Alquilar</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white fs-4" href="./vender.html">Vender</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white fs-4" href="./vistademapa.html">Vista de Mapa</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white fs-4" href="./contacto.html">Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class=" parallaxFHeader">
+		<div class="carousel-inner ">
+			<div class="parallaxCompletoVender carousel-item active ">
+
+				<div class=" textoHeroVender p-5 d-block  text-center ">
+					<h2 class=" fw-bold m-4">Permítanos ayudarlo a vender su propiedad</h2>
+					<p class="parrafoVender fs-5 fw-semibolder">Nos especializamos en ventas residenciales. A menudo se
+						dice que vender una casa es una de las cosas más estresantes que puede hacer. Nuestro objetivo
+						es disipar estos conceptos erróneos.
+
+					<p class="parrafoVender fs-5 fw-semibolder">Lo guiaremos a través del proceso, ya sea que venda por
+						primera vez o tenga una gran cartera de propiedades.</p>
+
+					<p class="parrafoVender fs-5 fw-semibolder">Dado que hemos estado buscando casas perfectas para
+						nuestros clientes durante más de 10 años, los vendedores pueden relajarse sabiendo que su
+						inversión inmobiliaria está en buenas manos, mientras que los compradores pueden estar seguros
+						de que encontrarán la casa de sus sueños.</p>
+					</p>
+					<span class="span text-center fs-2"> ________________________________________</span>
 				</div>
 			</div>
-		</nav>
+		</div>
 
-		<header class="navHeader parallaxFHeader">
+	</header>
 
-		</header>
+	<main class="principal parallaxFooterMain">
 
+		<div class="contactWhatsapp">
+			<a href="https://api.whatsapp.com/send?phone=+54xxxx" target="_blank">
+				<i class="fa-brands fa-whatsapp"></i>
+			</a>
+		</div>
+		
+		<h1 class="row m-3 justify-content-center">Aquí están los pasos a seguir</h1>
 
+		<!-- Cards inicio-->
+		<div data-aos="fade-right" class="cardsVender d-flex flex-wrap justify-content-center">
 
-		<main class="principal parallaxFooterMain">
-
-			<div class="contactWhatsapp">
-				<a href="https://api.whatsapp.com/send?phone=+54xxxx" target="_blank">
-					<i class="fa-brands fa-whatsapp"></i>
-				</a>
-			</div>
-
-			<div
-				class="infoForm mx-5 container container-fluid row justify-content-center shadow p-3 mb-5 bg-body rounded-5 d-flex">
-
-				<div class=" row  ">
-					<div class=" col-xl-4 col-md-6 col-sm-12 mb-3">
-						<label for="disabledSelect" class="form-label h6 pb-2 border-bottom">Objetivo</label>
-						<select id="disabledSelect" class="form-select">
-							<option>Ninguno</option>
-							<option>Comprar</option>
-							<option>Alquilar</option>
-						</select>
-					</div>
-
-					<div class=" col-xl-4 col-md-6 col-sm-12 mb-3">
-						<label for="disabledSelect" class="form-label h6 pb-2  border-bottom">Ubicación</label>
-						<select id="disabledSelect" class="form-select">
-							<option>Ninguno</option>
-							<option>Buenos Aires</option>
-							<option>Capital Federal</option>
-							<option>Uruguay</option>
-							<option>Neuquén</option>
-							<option>Chubut</option>
-							<option>Córdoba</option>
-							<option>Bahía Blanca</option>
-							<option>Chubut</option>
-							<option>Todos</option>
-						</select>
-					</div>
-
-					<div class=" col-lg-4 col-md-6 col-sm-12 mb-3">
-						<label for="disabledSelect" class="form-label h6 pb-2  border-bottom">Tipo de Propiedad</label>
-						<select id="disabledSelect" class="form-select">
-							<option>Ninguno</option>
-							<option>Casa</option>
-							<option>Departamento</option>
-							<option>Oficina</option>
-							<option>Departamento</option>
-							<option>Penthouse</option>
-							<option>Todos</option>
-						</select>
-					</div>
-
-					<div class=" col-lg-4 col-md-6 col-sm-12  mb-3">
-						<label for="disabledSelect" class="form-label h6 pb-2 border-bottom ">Dormitorios</label>
-						<select id="disabledSelect" class="form-select">
-							<option>Ninguno</option>
-							<option>Monoambiente</option>
-							<option>1 Dormitorio</option>
-							<option>2 Dormitorios</option>
-							<option>3 Dormitorio</option>
-							<option>4 Dormitorios o más</option>
-							<option>Todos</option>
-						</select>
-					</div>
-
-					<div class=" col-lg-4 col-md-6 col-sm-12  mb-3">
-						<label for="customRange3" class="form-label h6 pb-2 border-bottom">Precio | $ U$S</label>
-						<ul class="  ">
-							<li class="text-decoration-underline cursor-pointer">Hasta $2.500.000</li>
-							<li class="text-decoration-underline">$2.500.000 - $50.000.000</li>
-						</ul>
-						<input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
-						<ul class=" d-flex justify-content-between flex-nowrap h6 ">
-							<li class="list-group-item">$ 0.00</li>
-							<li class="list-group-item">$100.000.000 o más</li>
-						</ul>
-
-					</div>
-					<div class=" col-lg-4 col-md-6 col-sm-12  mb-3 align-self-center  ">
-						<button type="submit" class="btn btn-primary w-100">Encontrar</button>
+			<div class="card col-12 col-md-6 col-lg-4" style="width: 12rem;">
+				<div class=" p-3">
+					<img src="../assets/icons/house-flag-solid.svg" alt="">
+					<div class="cardsVender">
+						<h5 class="tituloCards fw-bold p-3">Publicidad</h5>
+						<p class="p-3">El agente visitará la propiedad y le brindará un análisis de mercado basado en ventas recientes.</p>
 					</div>
 				</div>
 			</div>
+			<i class="siguente fa-solid fa-angles-right align-self-center fs-2"></i>
+			
+			<div class="card col-12 col-md-6 col-lg-4" style="width: 12rem;">
+				<div class="p-3">
+					<img src="../assets/icons/rectangle-ad-solid.svg" alt="">
+					<div class="cardsVender">
+						<h5 class="tituloCards fw-bold p-3">Aceptación de la oferta</h5>
+						<p class="p-3">Promocionaremos su propiedad en varios canales con un anuncio profesional que incluye fotos y videos en HD.</p>
+					</div>
+				</div>
+			</div>
+			<i class="siguente fa-solid fa-angles-right align-self-center fs-2"></i>
+			
+			<div class="card col-12 col-md-6 col-lg-4" style="width: 12rem;">
+				<div class=" p-3">
+					<img src="../assets/icons/handshake-simple-solid.svg" alt="">
+					<div class="cardsVender">
+						<h5 class="tituloCards fw-bold p-3">Valoración de la propiedad</h5>
+						<p class="p-3">Su agente le mostrará la propiedad a los posibles compradores hasta que se acuerde una oferta.</p>
+					</div>
+				</div>
+			</div>
+			<i class="siguente fa-solid fa-angles-right align-self-center fs-2"></i>
+			
+			<div class="card col-12 col-md-6 col-lg-4" style="width: 12rem;">
+				<div class=" p-3">
+					<img src="../assets/icons/people-arrows-left-right-solid.svg" alt="">
+					<div class="cardsVender">
+						<h5 class="tituloCards fw-bold p-3">Cambio de propiedad</h5>
+						<p class="p-3">El agente se encargará de todo el papeleo y la transferencia final de la propiedad al Departamento de Tierras.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
+<!-- Vende con Nosotros inicio-->
+<div class="row  justify-content-center m-3">
+	<h1>¿POR QUÉ DEBERÍA CONFIAR EN NOSOTROS?</h1>
 
-		</main>
+	<!-- inicio - Datos numericos-->
+	<section class="inversionAddsData text-center p-2 fw-bold"  >
+		<div class=" d-flex flex-wrap flex-row p-2 w-100 justify-content-evenly ">
+			<div class= ""data-aos="flip-down" data-aos-duration="1500" >
+				<h2 class="infoInversion"  >600 +</h2>
+				<p>Propiedades disponibles</p>
+			</div>
+			<div class= ""data-aos="flip-down" data-aos-duration="2000" >
+				<h2 class="infoInversion">200 +</h2>
+				<p>Propietarios satisfechos</p>
+			</div>
+			<div class= ""data-aos="flip-down" data-aos-duration="2500" >
+				<h2 class="infoInversion">800 +</h2>
+				<p>Propiedades administradas</p>
+			</div>
+			<div class= ""data-aos="flip-down" data-aos-duration="3000" >
+				<h2 class="infoInversion">$300 millones</h2>
+				<p>Carteras Negocios realizados</p>
+			</div>
+		</div>
+	</section>
+</div>
 
-		<section>
+	</main>
 
-		</section>
+	<section>
+
+	</section>
 	</div>
 	<footer class="pie parallaxFooter bg-dark ">
 		<div class="container">
@@ -176,8 +197,7 @@
 
 								<li class="nav-item mb-1"><a href="#" class="nav-link text-white">
 										<svgsvg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-											fill="currentColor" class="bi bi-envelope-paper-fill"
-											viewBox="0 0 16 16">
+											fill="currentColor" class="bi bi-envelope-paper-fill" viewBox="0 0 16 16">
 											<path fill-rule="evenodd"
 												d="M6.5 9.5 3 7.5v-6A1.5 1.5 0 0 1 4.5 0h7A1.5 1.5 0 0 1 13 1.5v6l-3.5 2L8 8.75l-1.5.75ZM1.059 3.635 2 3.133v3.753L0 5.713V5.4a2 2 0 0 1 1.059-1.765ZM16 5.713l-2 1.173V3.133l.941.502A2 2 0 0 1 16 5.4v.313Zm0 1.16-5.693 3.337L16 13.372v-6.5Zm-8 3.199 7.941 4.412A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516L8 10.072Zm-8 3.3 5.693-3.162L0 6.873v6.5Z" />
 											</svg>contacto@email.com
@@ -207,15 +227,13 @@
 						<ul class="nav flex-column">
 							<li class="nav-item mb-2"><a href="../index.html" class="nav-link text-white">Inicio</a>
 							</li>
-							<li class="nav-item mb-2"><a href="./comprar.html"
-									class="nav-link  text-white">Comprar</a>
+							<li class="nav-item mb-2"><a href="./comprar.html" class="nav-link  text-white">Comprar</a>
 							</li>
 							<li class="nav-item mb-2"><a href="./alquilar.html"
 									class="nav-link  text-white">Alquilar</a></li>
 							<li class="nav-item mb-2"><a href="./vender.html" class="nav-link text-white">Vender</a>
 							</li>
-							<li class="nav-item mb-2"><a href="./vistademapa.html"
-									class="nav-link  text-white">Vista
+							<li class="nav-item mb-2"><a href="./vistademapa.html" class="nav-link  text-white">Vista
 									de Mapa</a></li>
 							<li class="nav-item mb-2"><a href="./contacto.html"
 									class="nav-link  text-white">Contactanos</a></li>
@@ -252,8 +270,8 @@
 						</svg>
 						</svg></a>
 				</li>
-				<li class="ms-3"><a class="link-dark target:_blank" href="https://instagram.com/"
-						target="_blank"><svg class="bi" width="24" height="24">
+				<li class="ms-3"><a class="link-dark target:_blank" href="https://instagram.com/" target="_blank"><svg
+							class="bi" width="24" height="24">
 							<use xlink:href="#instagram" /> xmlns="http://www.w3.org/2000/svg" width="16"
 							height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
 							<path

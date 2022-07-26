@@ -25,7 +25,6 @@
     }
 }
 
-
 /* Parallax en Alquilar - Inicio */
 .parallaxCompletoAlquilar {
     width: 100%;
@@ -52,6 +51,37 @@
         }
     }
 }
+
+/* Parallax en Vender - Inicio */
+.parallaxCompletoVender {
+    width: 100%;
+    height: 85vh;
+    background-image: url('../assets/img/casa-su-cliente-despues-cerrar-trato_35892-245.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .textoHeroVender {
+        display: flex;
+        height: 600px;
+        width: 100%;
+        background-color: rgba(32, 32, 30, 0.555);
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        font-size: 200;
+    }
+
+        .span {
+            color: $primario-orange;
+        }
+    }
+
+
 
 
 /* Parallax en Index - Inicio */
