@@ -389,6 +389,7 @@ video {
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
+  overflow: hidden;
 }
 .navbar * {
   box-sizing: border-box;
