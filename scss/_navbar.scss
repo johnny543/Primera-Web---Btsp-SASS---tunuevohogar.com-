@@ -1,19 +1,15 @@
-
 .navbar {
 	font-family: 'Titillium Web';
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 600;
 	overflow: hidden;
-	
-	
-
+	background-color: rgba(248, 249, 250, 0.856);
 	* {
 		box-sizing: border-box;
 		transition: all .35s ease;
 	}
 	.navbarImg{
-
 	width: 40px;
 		background: #d4d1cb13;
 		border-radius: 0px;
@@ -32,12 +28,9 @@
 
 	a {
 		padding: .5em .8em;
-		color: rgba(223, 221, 221, 0.973);
+		color: rgba(27, 27, 27, 0.973);
 		position: relative;
 	
-
-
-
 		&::before {
 			content: '';
 			right: 0;

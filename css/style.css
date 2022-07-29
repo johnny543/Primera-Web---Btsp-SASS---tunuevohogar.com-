@@ -7,29 +7,25 @@ body {
   height: 80%;
 }
 
-.bg-mycolor {
-  background-color: rgba(0, 0, 0, 0.445);
-}
-
 /* SCSS HEX */
 .span {
-  color: #ff5107;
+  color: rgba(255, 106, 7, 0.945);
 }
 
 .btn {
-  background-color: #ff5107;
+  background-color: rgba(255, 106, 7, 0.945);
 }
 
 .rangeButton {
-  color: #ff5107;
+  color: rgba(255, 106, 7, 0.945);
 }
 
 .siguente {
-  color: #ff5107;
+  color: rgba(255, 106, 7, 0.945);
 }
 
 .tituloCards {
-  color: #ff5107;
+  color: rgba(255, 106, 7, 0.945);
 }
 
 /* Parallax en Comprar - Inicio */
@@ -54,7 +50,7 @@ body {
   color: #fff;
 }
 .parallaxCompleto .textoHero .span {
-  color: #ff5107;
+  color: rgba(255, 106, 7, 0.945);
 }
 
 /* Parallax en Alquilar - Inicio */
@@ -79,7 +75,7 @@ body {
   color: #fff;
 }
 .parallaxCompletoAlquilar .textoHeroAlquilar .span {
-  color: #ff5107;
+  color: rgba(255, 106, 7, 0.945);
 }
 
 /* Parallax en Vender - Inicio */
@@ -106,7 +102,7 @@ body {
   font-size: 200;
 }
 .parallaxCompletoVender .span {
-  color: #ff5107;
+  color: rgba(255, 106, 7, 0.945);
 }
 
 /* Parallax en Index - Inicio */
@@ -163,7 +159,7 @@ body {
   color: #a52c2c;
 }
 .contactForm .infoFormu .fa {
-  color: #ff5107;
+  color: rgba(255, 106, 7, 0.945);
 }
 .contactForm .inputForm {
   background-color: rgba(36, 35, 34, 0.4235294118);
@@ -178,7 +174,7 @@ body {
   font-size: 16px;
   border: none;
   outline: 0px;
-  background-color: #ff5107;
+  background-color: rgba(255, 106, 7, 0.945);
   color: white;
   border-radius: 3px;
   cursor: pointer;
@@ -235,7 +231,7 @@ body {
   position: absolute;
   width: 350px;
   height: 200px;
-  background: linear-gradient(to right, #ff5107, #f07a05);
+  background: linear-gradient(to right, rgba(255, 106, 7, 0.945), #f07a05);
   transform: rotate(-35deg);
   top: -50px;
   left: -100px;
@@ -290,16 +286,14 @@ body {
   color: #FE0000;
 }
 
-/* Sections nuestrosRepresentantes - Fin*/
 /* Sections inversionAdds - Inicio*/
 .inversionAddsData {
-  color: #ff5107;
+  color: rgba(255, 106, 7, 0.945);
 }
 .inversionAddsData .infoInversion {
-  color: #ff5107;
+  color: rgba(255, 106, 7, 0.945);
 }
 
-/* Sections inversionAdds - Fin*/
 /* Sections inverGrupo -Video fondo- Inicio*/
 .invierGrupo {
   width: 100%;
@@ -334,7 +328,7 @@ video {
   height: 10px;
   content: "";
   margin: auto;
-  background: #ff5107;
+  background: rgba(255, 106, 7, 0.945);
 }
 
 .subtituloInversionVideo {
@@ -363,7 +357,6 @@ video {
     display: none;
   }
 }
-/* Sections inverGrupo - Fin */
 /*Section consejoDeExperto - Inicio */
 .consejoDeExperto {
   width: 100%;
@@ -378,6 +371,87 @@ video {
   background-image: url(../assets/img/001\ alquilers\ firm.jpg);
 }
 
+/*Section form Vender/pagina vender - Inicio */
+.formVender {
+  width: 740px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.h2Vender {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c;
+}
+
+.inputVender {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+.inputVender:focus {
+  border-bottom: 2px solid #78788c;
+}
+
+.parrafoVender:before {
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+.btnVender {
+  float: left;
+  padding: 12px 22px;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btnVender:hover {
+  background: rgba(255, 106, 7, 0.945);
+  color: #fff;
+}
+
+.divVender {
+  content: "Hi";
+  position: absolute;
+  bottom: 90%;
+  right: 5%;
+  background: #50505a;
+  color: #fff;
+  width: 250px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  display: flex;
+  column-gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 10px 10px 40px -14px #000;
+}
+
+.spanVender {
+  margin: 0 5px 0 15px;
+}
+
 .infoForm {
   position: relative;
   z-index: 1;
@@ -390,6 +464,7 @@ video {
   text-align: center;
   font-weight: 600;
   overflow: hidden;
+  background-color: rgba(248, 249, 250, 0.856);
 }
 .navbar * {
   box-sizing: border-box;
@@ -409,7 +484,7 @@ video {
 }
 .navbar a {
   padding: 0.5em 0.8em;
-  color: rgba(223, 221, 221, 0.973);
+  color: rgba(27, 27, 27, 0.973);
   position: relative;
 }
 .navbar a::before {
@@ -486,8 +561,20 @@ video {
 }
 .card .card-footer {
   text-align: center;
-  color: #ff5107;
+  color: rgba(255, 106, 7, 0.945);
 }
 .card .card-footer .offalquileres {
   color: #373a3c;
+}
+
+.iconFooter {
+  color: rgba(255, 106, 7, 0.945);
+}
+
+.iconRRSS {
+  width: 25%;
+  margin: 42px;
+}
+.iconRRSS:hover {
+  box-shadow: 5px 5px 20px rgba(104, 43, 8, 0.589);
 }/*# sourceMappingURL=style.css.map */

@@ -5,12 +5,9 @@ body {
     height: 80%;
 }
 
-.bg-mycolor {
-    background-color: rgba(0, 0, 0, 0.445);
-}
 
 /* SCSS HEX */
-$primario-orange: #ff5107ff;
+$primario-orange: rgba(255, 106, 7, 0.945);
 $secundario-black: #000000ff;
 $terciario-onyx: #373a3cff;
 $cuarto-davys-grey: #54595fff;
