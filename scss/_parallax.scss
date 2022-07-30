@@ -35,15 +35,18 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
     .textoHeroAlquilar {
         background: rgba(224, 220, 220, 0.123);
         padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
         border-radius: 10px;
-        width: 150vh;
         text-align: center;
+        justify-content: center;
         color: #fff;
 
         .span {

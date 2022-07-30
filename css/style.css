@@ -573,7 +573,8 @@ video {
 
 .iconRRSS {
   width: 25%;
-  margin: 42px;
+  margin: 28px;
+  color: #fff;
 }
 .iconRRSS:hover {
   box-shadow: 5px 5px 20px rgba(104, 43, 8, 0.589);
@@ -581,4 +582,13 @@ video {
 
 .iconCarsOF {
   padding: 10px;
+}
+
+.mapsLocalizador {
+  max-width: 1200px;
+  border: 2px solid rgba(99, 38, 3, 0.589);
+}
+
+.googleMaps {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
